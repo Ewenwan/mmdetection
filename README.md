@@ -3,6 +3,16 @@
 
 **News**: We released the technical report on [ArXiv](https://arxiv.org/abs/1906.07155).
 
+
+高度模块化的设计。通过不同检测算法流程的分解，形成一系列可定制的模块。然后对这些模块进行随机组合，可以迅速搭建不同的检测框架。
+
+多种算法框架支持。MMDetection 直接支持多种主流的目标检测与实例分割的算法框架，包括 single-stage、two-stage、multi-stage 等多种典型架构，以及各种新型模块。此外，MMDetection 还提供了 200 多个预训练的模型。
+
+高计算性能。MMDetection 所支持的主要模块均能在 GPU 上运行。整体的训练速度优于 Detectron、maskrcnn-benchmark、以及 SimpleDet。特别值得一提的是，MMDetection 还直接支持混合精度训练以及多卡联合训练，这些技术的引入都能显著提高训练的效率。
+
+先进算法。
+
+
 ## Introduction
 
 The master branch works with **PyTorch 1.1** or higher.
